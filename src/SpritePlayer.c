@@ -7,6 +7,7 @@
 #include "Math.h"
 #include "StateGame.h"
 #include "Sound.h"
+#include "BankManager.h"
 #include "../res/src/SoundEffects.h"
 #include "../res/src/sheep1.h"
 #include "../res/src/sheep2.h"
@@ -477,7 +478,7 @@ void Update_SPRITE_PLAYER() {
 
 	ApplyJump(data);
 
-	ApplyGravity(data, velcro, gravitySetting);
+	ApplyGravity(data, velcro);
 
 	HandleInput(data, velcro);
 	HandleCheats();
