@@ -6,6 +6,9 @@
 #include "StateCredits.h"
 #include "../res/src/SoundEffects.h"
 
+#define OAM_VERTICAL_FLAG 0x20
+#define OAM_HORIZONTAL_FLAG  0x40
+
 UINT8 bank_SPRITE_CREDIT_SHEEP = 4;
 
 #define COLL_Y 12

@@ -13,6 +13,9 @@
 #include "../res/src/sheep3.h"
 UINT8 bank_SPRITE_PLAYER = 2;
 
+#define OAM_VERTICAL_FLAG 0x20
+#define OAM_HORIZONTAL_FLAG  0x40
+
 #define COLL_Y 12
 
 static UINT8* spriteSheets[] = { sheep1, sheep2, sheep3 };
