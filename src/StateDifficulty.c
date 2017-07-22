@@ -1,5 +1,5 @@
 /* ----- Bank setup ----- */
-#pragma bank=4
+#pragma bank 4
 #include "StateDifficulty.h"
 UINT8 bank_STATE_DIFFICULTY = 4;
 

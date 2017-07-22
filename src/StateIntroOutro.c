@@ -1,5 +1,5 @@
 /* ----- Bank setup ----- */
-#pragma bank=4
+#pragma bank 4
 #include "StateIntroOutro.h"
 UINT8 bank_STATE_INTRO = 4;
 UINT8 bank_STATE_OUTRO = 4;

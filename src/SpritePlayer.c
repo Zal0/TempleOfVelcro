@@ -1,4 +1,4 @@
-#pragma bank=2
+#pragma bank 2
 #include "SpritePlayer.h"
 #include "Keys.h"
 #include "ZGBMain.h"

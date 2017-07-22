@@ -1,4 +1,4 @@
-#pragma bank=2
+#pragma bank 2
 #include "SpriteCountdown.h"
 #include "SpriteManager.h"
 #include "SpritePlayer.h"

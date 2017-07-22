@@ -1,4 +1,4 @@
-#pragma bank=4
+#pragma bank 4
 #include "StateGameover.h"
 UINT8 bank_STATE_GAMEOVER = 4;
 

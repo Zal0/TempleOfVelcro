@@ -1,4 +1,4 @@
-#pragma bank=4
+#pragma bank 4
 #include "SpriteCreditSheep.h"
 #include "SpriteManager.h"
 #include "SpritePlayer.h"
